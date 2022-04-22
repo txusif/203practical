@@ -24,5 +24,6 @@ int main()
 {
     Derived obj;
     obj.print();
+    // obj.Base::print();
     return 0;
 }

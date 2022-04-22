@@ -3,9 +3,9 @@
 using namespace std;
 
 int main()
-{
+{ 
     ofstream f1("hello.txt");
-    f1<<"File contains info and can be stored on system"<<endl;
+    f1<<"@txusif"<<endl;
     f1.close();
 
     char myText[100];

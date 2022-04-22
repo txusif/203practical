@@ -16,16 +16,16 @@ int main()
     int a, b, c;
     float m, n, p;
 
-    cout<<"Enter 2 Integer numbers: ";
+    cout<<"Enter 2 Integer numbers: "<<endl;
     cin>>a>>b;
 
-    cout<<"Enter 2 Float numbers: ";
+    cout<<"Enter 2 Float numbers: "<<endl;
     cin>>m>>n;
 
     c = sum(a, b);
     p = sum(m, n);
 
-    cout<<"Int sum: "<<a<<" + "<<b<<" = "<<c<<endl;
-    cout<<"Float sum:"<<m<<" + "<<n<<" = "<<p<<endl;
+    cout<<"Int sum: "<<a<<"+"<<b<<"= "<<c<<endl;
+    cout<<"Float sum: "<<m<<"+"<<n<<"= "<<p<<endl;
     return 0;
 }

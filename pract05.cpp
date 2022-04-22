@@ -42,10 +42,10 @@ class Result : public Marks
         total = science+math+geography;
         avg = total/3;
 
-        if (avg>80) grade = 'O';
-        else if (avg>70 && avg>80) grade = 'A';
-        else if (avg>50 && avg>70) grade = 'B';
-        else if (avg>40 && avg>50) grade = 'C';
+        if (avg>=80) grade = 'O';
+        else if (avg>=70 && avg<80) grade = 'A';
+        else if (avg>=50 && avg<70) grade = 'B';
+        else if (avg>=40 && avg<50) grade = 'C';
         else grade = 'F';
 
         cout<<"Roll no: "<<rollNo<<endl;

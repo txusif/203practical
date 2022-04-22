@@ -19,7 +19,6 @@ class Shape
     {
         cout<<"Destructor of Shape class called"<<endl;
     }
-    
 };
 
 class Rectangle : public Shape

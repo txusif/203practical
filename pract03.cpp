@@ -11,7 +11,7 @@ class Array
 
 void Array :: setData()
 {
-    for(int i=0;i<5;i++)
+    for(int i=0; i<5; i++)
     {
         cout<<"Enter 5 array elements: ";
         cin>>A[i];
@@ -20,7 +20,7 @@ void Array :: setData()
 
 void Array :: displayData()
 {
-    for(int i=0;i<5;i++)
+    for(int i=0; i<5; i++)
     {
         cout<<A[i]<<" ";
     }
